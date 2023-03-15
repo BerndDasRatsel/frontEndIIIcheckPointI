@@ -1,0 +1,39 @@
+.todo-item {
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.todo-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+input[type='text'],
+select,
+textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+button[type='submit'],
+button {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    margin-right: 10px;
+}
+
+button[type='submit']:hover,
+button:hover {
+    background-color: #0069d9;
+}
